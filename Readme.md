@@ -61,14 +61,40 @@ We will also take a look at separating the views from the logic.
 - fill home.php
 - Create design
 
-
-
 ## Showing a page
+
+- Create ``page.php`` in ``root`` folder
+- Create ``page/show.php`` in the ``view`` folder.
+- Create content for view.
+- Create ``functions.php`` in the ``app`` folder.
+- Modify date by adding object.
+- Continue finishing the view.
 
 ## Admin panel
 
+- Add the ``.htaccess``
+- Add the ``.htpasswd``
+- Create ``list.php``.
+- Create a folder ``admin`` within the ``view`` folder.
+- Create ``views/admin/list.php``.
+- Add logic to ``list.php``. 
+
 ## Adding pages
+
+- Add ``slug`` link in ``list.php``
+- Create the ``add.php`` within the ``admin`` folder
+- Create the ``add.php`` view with the ``views/admin`` folder.
+- Add logic to ``add.php``.
 
 ## Editing pages
 
+- Add ``edit`` link in ``list.php``
+- Create the ``edit.php`` within the ``admin`` folder
+- Create the ``edit.php`` view with the ``views/admin`` folder.
+- Add logic to ``edit.php``.
+
 ## Deleting pages
+
+- Create delete.php
+- Add ``edit`` link in ``list.php``
+- Add logic to ``delete.php``.
