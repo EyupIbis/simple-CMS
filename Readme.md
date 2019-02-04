@@ -1,6 +1,6 @@
 # Create your own CMS
 
-## Inhoudsopgaven
+## Table of contents
  - [Introduction](#Introduction)
  - [Setting up](#Setting-up)
  - [Output pages](#Output-pages)
